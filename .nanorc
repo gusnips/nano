@@ -25,7 +25,7 @@ unset backwards
 
 
 ## cut/copy/paste
-bind ^X cut          main
+bind ^K cut          main
 bind ^C copytext     main
 bind ^V uncut        main
 
@@ -48,7 +48,7 @@ bind M-W findnext main
 unset preserve
 bind ^S savefile     all
 bind ^O writeout     all
-bind ^Q exit         all
+bind ^X exit         all
 bind M-Z suspend     main
 
 
